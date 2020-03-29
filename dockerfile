@@ -107,7 +107,7 @@ RUN chmod 777 /var/www/html/*.php
 ADD supervisord.conf /etc/
 
 # Creating directory for the certs
-RUN mkdir -p /etc/httpd/ssl/
+#RUN mkdir -p /etc/httpd/ssl/
 
 # Adding certificates
 #ADD /certs/ /etc/httpd/ssl/
